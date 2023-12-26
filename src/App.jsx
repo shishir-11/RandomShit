@@ -7,7 +7,7 @@ function App() {
     <div className="App h-screen">
     <Router>
       <div className="navbar h-16"><Navbar/></div>
-      <div className="content py-16 relative">
+      <div className="content">
       <Routes>
         <Route path={"/"} element={<Home/>}></Route>
         <Route path={"/about"}>About</Route>
