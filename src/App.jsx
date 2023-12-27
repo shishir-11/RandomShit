@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 function App() {
 
   return (
-    <div className="App h-screen">
+    <div className="App">
     <Router>
       <div className="navbar h-16"><Navbar/></div>
       <div className="content">
